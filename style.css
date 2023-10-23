@@ -1,0 +1,322 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px;
+  background: #ffffff;
+  box-shadow: 0px 1px rgba(0, 0, 0, 0.06);
+  position: sticky;
+  margin: 5px;
+}
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: 600;
+}
+#navbar li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+#navbar li a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  color: #1a1a1a;
+  transition: 0.3s ease;
+  z-index: 1;
+}
+.logo {
+  width: 120px;
+  right: 4px;
+}
+#navbar li a:hover,
+#navbar li a.active {
+  color: #088178;
+}
+#navbar li a.active::after,
+#navbar li a:hover::after {
+  content: "";
+  width: 30%;
+  height: 2px;
+  background: #088178;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
+.coinbase-button {
+  background-color: #315cf5;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.coinbase-button:hover {
+  background-color: #3752ac;
+}
+.coinbase-button2 {
+  background-color: #eef0f3;
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.fa-globe {
+  color: black;
+  padding-left: 26px;
+}
+#hero {
+  /* background-image: url(images/freeMoney-1.5.webp); */
+  height: 90vh;
+  /* width: 100%; */
+  /* background-size: contain; */
+  background-position: top 25% right 0;
+  padding: 0 80px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+#hero h4 {
+  padding-bottom: 15px;
+}
+#hero h1 {
+  font-size: 60px;
+}
+#hero h3 {
+  font-size: 25px;
+}
+#hero a {
+  text-decoration: none;
+}
+#hero a:hover {
+  text-decoration: underline;
+}
+.coinbase-btn {
+  background-color: #315cf5;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+.coinbase-btn:hover {
+  background-color: #3752ac;
+}
+.buttons {
+  padding: 3px;
+}
+.buttons input {
+  padding: 13px 40px;
+  transition: 0.5s;
+  outline-color: #0e131f;
+}
+
+.buttons button {
+  margin-left: 40px;
+}
+
+.banner {
+  background-color: #0a0b0d;
+  height: 250px;
+  color: rgb(0, 0, 0);
+}
+.bannerimg {
+  padding: 50px;
+}
+.text {
+  display: inline;
+}
+/* CSS for styling the banner */
+/* CSS for styling the banner */
+/* CSS for styling the banner */
+/* CSS for styling the banner */
+/* CSS for styling the banner */
+
+/* CSS for styling the banner */
+.banner {
+  display: flex;
+  align-items: center;
+  background-color: #0a0b0d;
+  padding: 20px;
+  height: 350px;
+}
+
+.bannerimg {
+  flex: 1;
+}
+
+.bannerimg img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text {
+  flex: 3;
+  padding: 5px;
+  position: relative;
+}
+
+.text h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.text h3 {
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.learn-more {
+  position: absolute;
+  bottom: -30px; /* Adjust button's distance from the bottom */
+  background-color: #477ef6;
+  color: #0e131f;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 50px;
+  padding: 13px 40px;
+}
+/* CSS for styling the table */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th,
+td {
+  border: 1px solid #c2c1c1;
+  padding: 25px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
+.crypto-logo {
+  width: 50px; /* Set the width of the cryptocurrency logo */
+  height: 50px; /* Set the height of the cryptocurrency logo */
+  vertical-align: middle;
+}
+.tr p {
+  color: red;
+}
+.table p {
+  color: green;
+}
+.hero2 {
+  /* background-image: url(images/freeMoney-1.5.webp); */
+  height: 70vh;
+  /* width: 100%; */
+  /* background-size: contain; */
+  background-position: top 25% right 0;
+  padding: 0 80px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+.hero2 h4 {
+  padding-bottom: 15px;
+}
+.hero2 h1 {
+  font-size: 40px;
+}
+.hero2 h3 {
+  font-size: 25px;
+}
+.buttons {
+  padding: 8px;
+}
+.buttons input {
+  padding: 13px 40px;
+  transition: 0.5s;
+  outline-color: #0e131f;
+}
+
+.buttons button {
+  margin-left: 40px;
+}
+
+.right-col {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.coin {
+  background-color: #f3f3f3;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.coin-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.coin-name {
+  font-weight: bold;
+}
+
+.coin-symbol {
+  color: #888;
+  padding-left: 10px 20px;
+}
+
+.earn {
+  font-weight: bold;
+  color: green;
+}
+
+.earn-text {
+  background-color: #f3f3f3;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.start-earning-button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.start-earning-button:hover {
+  background-color: darkgreen;
+}
+.coin-name img{
+  width: 50px;
+}
